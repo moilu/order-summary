@@ -6,7 +6,7 @@ Front-end Mentor Challenge
 
 ![Preview site](/src/assets/desktop-preview.jpg?raw=true)
 
-- [Live site](https://647a74aa65687c1aff6b2688--nimble-genie-69892e.netlify.app/)
+- [Live site](https://6495e0c994575166cc2e24ac--lovely-genie-b333fc.netlify.app/)
 
 ## 🧰 Technologies
 
