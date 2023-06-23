@@ -1,6 +1,8 @@
 
 <div class="card">
-    <img src="/src/assets/illustration-hero.svg" alt="Cartoon dancing with headphones">
+    <figure>
+        <img src="/src/assets/illustration-hero.svg" alt="Cartoon dancing with headphones">
+    </figure>
     <div class="content">
         <h1>Order Summary</h1>
         <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
@@ -30,10 +32,16 @@
     width: 450px;
 }
 
+.card > figure {
+    display: grid;
+    justify-content: center;
+    margin: 0;
+}
+
 .content {
     display: grid;
-    gap: 1rem;
-    padding: 2rem 3rem;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
     text-align: center;
 }
 
@@ -118,5 +126,23 @@
 
 .secondary-button:hover {
     color: black;
+}
+
+@media (max-width: 1023px) {
+    .card {
+        width: 300px;
+    }
+    .content {
+        gap: 0.25rem;
+        padding: 1rem 1rem;
+    }
+    .content p {
+        font-size: 14px;
+    }
+    .order-container {
+        padding: 7.5px;
+        margin-bottom: 8px;
+    }
+
 }
 </style>
